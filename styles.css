@@ -1,0 +1,10 @@
+.container {
+    height: 1650px;
+    width: 1200px;
+    background-color: darkorange;
+}
+.srodek {
+    height: 100%;
+    width: 900px;
+    background-color: aliceblue;
+}
