@@ -1,10 +1,24 @@
-.container {
-    height: 1650px;
-    width: 1200px;
-    background-color: darkorange;
+body {
+    background-color: aquamarine;
+}
+
+.kontener {
+    max-height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tekst {
+    font-size: 15px;
+    font-family: "Tahoma";
+    z-index: 5;
 }
 .srodek {
-    height: 100%;
     width: 900px;
-    background-color: aliceblue;
+    background-color: darkorange;
+    box-shadow: 0 0 5px 3px red;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
